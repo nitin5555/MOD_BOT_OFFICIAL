@@ -18,9 +18,9 @@ from io import BytesIO
 from discord.ext import commands
 from discord.utils import get
 
-bot = commands.Bot(command_prefix='//')  # bot prefix for all bot commands
+bot = commands.Bot(command_prefix='$')  # bot prefix for all bot commands
 bot.remove_command("help")  # replaces old help command with custom help
-BOT_ID = 504493647316647936
+BOT_ID = 697040751871262771
 
 
 """EVENTS"""
@@ -1053,4 +1053,4 @@ async def yt(ctx, *args):
 		await ctx.send("**You must enter a number between 1 and 5.**")
 
 
-bot.run(str(os.environ.get("BOT_TOKEN")))  # run the bot
+bot.run("Njk3MDQwNzUxODcxMjYyNzcx.XoxfyQ.JjRZ4Pg9TCvop3-rmIQFYnb60c4")))  # run the bot
