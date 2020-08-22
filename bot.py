@@ -20,7 +20,7 @@ from discord.utils import get
 
 bot = commands.Bot(command_prefix='$')  # bot prefix for all bot commands
 bot.remove_command("help")  # replaces old help command with custom help
-BOT_ID = 697040751871262771
+BOT_ID = 746824823132520518
 
 
 """EVENTS"""
