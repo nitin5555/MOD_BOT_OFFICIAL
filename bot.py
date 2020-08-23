@@ -18,9 +18,9 @@ from io import BytesIO
 from discord.ext import commands
 from discord.utils import get
 
-bot = commands.Bot(command_prefix='//')  # bot prefix for all bot commands
+bot = commands.Bot(command_prefix='$')  # bot prefix for all bot commands
 bot.remove_command("help")  # replaces old help command with custom help
-BOT_ID = 504493647316647936
+BOT_ID = 746824823132520518
 
 
 """EVENTS"""
@@ -37,8 +37,8 @@ async def on_message(message):
 	if message.author == bot.user:
 		return
 
-	if message.content == "<@504493647316647936>":
-		await message.channel.send("Bot prefix is **//**")
+	if message.content == "<@746824823132520518>":
+		await message.channel.send("Bot prefix is **$**")
 	await bot.process_commands(message)
 
 
@@ -1053,4 +1053,4 @@ async def yt(ctx, *args):
 		await ctx.send("**You must enter a number between 1 and 5.**")
 
 
-bot.run(str(os.environ.get("BOT_TOKEN")))  # run the bot
+bot.run(str(os.environ.get("NzQ2ODI0ODIzMTMyNTIwNTE4.X0F80Q.hyOrit4bE08b8EBdUeZvEe6GXIE")))  # run the bot
